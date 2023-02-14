@@ -13,6 +13,7 @@
 		DA28E2AA299C0F46005B1D04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA28E2A9299C0F46005B1D04 /* Assets.xcassets */; };
 		DA28E2AD299C0F46005B1D04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA28E2AB299C0F46005B1D04 /* LaunchScreen.storyboard */; };
 		DA28E2BC299C1251005B1D04 /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA28E2BB299C1251005B1D04 /* PhotosCollectionViewController.swift */; };
+		DA28E2BE299C15F3005B1D04 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA28E2BD299C15F3005B1D04 /* PhotoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DA28E2AC299C0F46005B1D04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA28E2AE299C0F46005B1D04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA28E2BB299C1251005B1D04 /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
+		DA28E2BD299C15F3005B1D04 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				DA28E2BB299C1251005B1D04 /* PhotosCollectionViewController.swift */,
+				DA28E2BD299C15F3005B1D04 /* PhotoCell.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 				DA28E2A1299C0F44005B1D04 /* AppDelegate.swift in Sources */,
 				DA28E2A3299C0F44005B1D04 /* SceneDelegate.swift in Sources */,
 				DA28E2BC299C1251005B1D04 /* PhotosCollectionViewController.swift in Sources */,
+				DA28E2BE299C15F3005B1D04 /* PhotoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
