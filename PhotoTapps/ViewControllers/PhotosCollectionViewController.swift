@@ -24,6 +24,14 @@ class PhotosCollectionViewController: UICollectionViewController {
 //        layout.minimumInteritemSpacing = 20
 //        collectionView.showsVerticalScrollIndicator = false
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "detailsSegue" {
+            let detailsVC = segue.destination as! DetailsViewController
+            let cell = sender as! PhotoCell
+            detailsVC.image = cell.photoImageView.image
+        }
+    }
 
     // MARK: UICollectionViewDataSource
     override func numberOfSections(in collectionView: UICollectionView) -> Int {
