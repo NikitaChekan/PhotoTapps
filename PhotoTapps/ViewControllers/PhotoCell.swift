@@ -9,4 +9,6 @@ import UIKit
 
 class PhotoCell: UICollectionViewCell {
     
+    @IBOutlet var photoImageView: UIImageView!
+    
 }

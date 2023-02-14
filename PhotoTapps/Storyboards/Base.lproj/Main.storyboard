@@ -30,8 +30,21 @@
                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="5qg-Fc-dfY">
                                     <rect key="frame" x="0.0" y="0.0" width="127.99999999999997" height="128"/>
                                     <autoresizingMask key="autoresizingMask"/>
-                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="E9t-hR-qLN">
+                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                        </imageView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="E9t-hR-qLN" firstAttribute="leading" secondItem="5qg-Fc-dfY" secondAttribute="leading" id="drW-gl-sJp"/>
+                                        <constraint firstAttribute="bottom" secondItem="E9t-hR-qLN" secondAttribute="bottom" id="dtz-r6-awB"/>
+                                        <constraint firstAttribute="trailing" secondItem="E9t-hR-qLN" secondAttribute="trailing" id="eVR-6H-DJD"/>
+                                        <constraint firstItem="E9t-hR-qLN" firstAttribute="top" secondItem="5qg-Fc-dfY" secondAttribute="top" id="lLR-vh-cWh"/>
+                                    </constraints>
                                 </collectionViewCellContentView>
+                                <connections>
+                                    <outlet property="photoImageView" destination="E9t-hR-qLN" id="M1a-VZ-1qf"/>
+                                </connections>
                             </collectionViewCell>
                         </cells>
                         <connections>
